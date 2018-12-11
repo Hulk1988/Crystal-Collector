@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crystal Collector Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <div class="containerA">
+        <div>
+            <h1 id="crystalHeader">Crystal Collector!</h1>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="rulesList relative">
+            <li class="rules">You will be given a random number at the start of the game.</li>
+            <li class="rules">There are four crystals below. By clicking on a crystal, you will add a specific amount
+                of points to your total score.</li>
+            <li class="rules">You win the game by matching your total score to the random number,
+                and you will lose if your total score goes above the random number as well.</li>
+            <li class="rules">The value of each crystal will be hidden from you
+                until you click on it and see your score change.</li>
+            <li class="rules">Each time a new round starts,
+                the game will change the values of each crystal.</li>
+                
+            <div class="scanlines"></div>
+        </ul>
+    </div>
+
+    <div class="game-wrapper">
+        <div class="target">
+            0
+        </div>
+
+        <div id="scoreboard-content">
+                scoreboard: <span class="score"></span>
+            </div>
+        
+        <div id="wins-losses">
+            wins:<div class="wins">0</div>
+            Losses:<div class="losses">0</div>
+        </div>
+        
+        <div class="crystals">
+            <button class="btn1 crystal-btn" value="0"></button>
+            <button class="btn2 crystal-btn" value="1"></button>
+            <button class="btn3 crystal-btn" value="2"></button>
+            <button class="btn4 crystal-btn" value="3"></button>
+        </div>
+        
+       
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="C:\Users\rxfit\Crystal-Collector\assets\javascript\game.js">
+
+    </script>
+</body>
+
+</html>
