@@ -8,3 +8,6 @@ The player wins the game if their total score matches random number and player l
 Amount of points each crystal adds is hidden from player and their total score is displayed/updated after each crystal is clicked.
 If player successfully total score matches the random number, the result is 1 win.
 If player's total score > random number, result is 1 loss.
+
+Assignment helped me to understand JQuery uses and applications.
+One challenge that I faced was utilizing the math.random function to generate the random target number as well as the four crystal's values, which updated after each game. 
